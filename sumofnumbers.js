@@ -19,6 +19,7 @@ function sumWhile(arr) {
 }
 
 console.log(sumWhile(list));
+console.log("does this work");
 
 function sumRecursion(arr) {
   if (arr.length === 0) {
