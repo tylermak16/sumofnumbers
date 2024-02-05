@@ -11,15 +11,15 @@ console.log(sumFor(list));
 
 function sumWhile(arr) {
   let sum = 0;
-  const i = 0;
+  let i = 0;
   while (i < arr.length) {
     sum += arr[i];
+    i++;
   }
   return sum;
 }
 
 console.log(sumWhile(list));
-console.log("does this work");
 
 function sumRecursion(arr) {
   if (arr.length === 0) {
